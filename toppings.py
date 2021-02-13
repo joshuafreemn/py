@@ -6,4 +6,4 @@ for topping in requested_toppings:
 	else:
 		print("Adding " + topping.title() + ".")
 
-print("\nYour pizza is finsihed.")
+print("\nYour pizza is finito.")
