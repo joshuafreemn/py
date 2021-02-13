@@ -1,9 +1,8 @@
-requested_toppings = ['mushrooms', 'pineapple', 'green peppers', 'extra pineapple']
+requested_toppings = []
 
-for topping in requested_toppings:
-	if topping == 'green peppers':
-		print("Sorry, We're all out of green peppers right now.")
-	else:
+if requested_toppings:
+	for topping in requested_toppings:
 		print("Adding " + topping.title() + ".")
-
-print("\nYour pizza is finito.")
+	print("\nYour pizza is finito.")
+else:
+	print("Don't be a plain jane, add some toppings to ya pizza!")
