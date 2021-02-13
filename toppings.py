@@ -1,4 +1,6 @@
-requested_toppings = []
+available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra pineapple', 'jalapeno']
+
+requested_toppings = ['mushrooms', 'pineapple', 'jalapeno', 'extra pineapple']
 
 if requested_toppings:
 	for topping in requested_toppings:
