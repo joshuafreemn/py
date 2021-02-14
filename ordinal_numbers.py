@@ -1,4 +1,7 @@
 num = list(range(1, 10))
 
 for n in num:
-	print(n)
+	if n == 1:
+		print("one")
+	else:
+		print("not one")
