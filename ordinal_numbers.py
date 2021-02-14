@@ -2,6 +2,10 @@ num = list(range(1, 10))
 
 for n in num:
 	if n == 1:
-		print("one")
+		print(f"{n}st")
+	elif n == 2:
+		print(f"{n}nd")
+	elif n == 3:
+		print(f"{n}rd")
 	else:
-		print("not one")
+		print(f"{n}th")
