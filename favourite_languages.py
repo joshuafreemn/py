@@ -26,5 +26,6 @@ for name in sorted(favorite_languages.keys()):
 
 #Looping through values
 print("\nThe follwoing languages have neem mentioned:")
-for language in favorite_languages.values():
-	print("\t" + language.title())
+for language in set(favorite_languages.values()):
+	print("\t\t\t\t\t\t\t\t\t" + language.title())
+
