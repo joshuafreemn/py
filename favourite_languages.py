@@ -25,7 +25,7 @@ for name in sorted(favorite_languages.keys()):
 	print(name.title() + ", thank you for taking the poll!")
 
 #Looping through values
-print("\nThe follwoing languages have neem mentioned:")
+print("\nThe following languages have neem mentioned:")
 for language in set(favorite_languages.values()):
 	print("\t\t\t\t\t\t\t\t\t" + language.title())
 
