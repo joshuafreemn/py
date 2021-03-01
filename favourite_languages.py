@@ -4,5 +4,9 @@ favorite_languages = {
 	'edward' : 'ruby',
 	'phil' : 'python',
 }
+#print Sarah's fav language
+print("Sarah's fave language is " + favorite_languages['sarah'].title() + ".\n")
 
-print("Sarah's fave language is " + favorite_languages['sarah'].title() + ".")
+#loop through dictionary
+for name, language in favorite_languages.items():
+	print(name.title() + "'s favourite language is " + language.title() + ".")
