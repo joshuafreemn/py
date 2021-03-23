@@ -7,4 +7,4 @@ msg = "hello, Crash Course"
 print(msg)
 
 message = "a tactful error"
-print(mesage)
+print(message)
