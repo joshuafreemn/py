@@ -1,4 +1,4 @@
-height = input("How takk are you, in inches? ")
+height = input("How tall are you, in inches? ")
 height = int(height)
 
 if height >= 36:
