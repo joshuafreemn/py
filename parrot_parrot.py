@@ -6,8 +6,8 @@ active = True
 while active:
 	message = input(prompt)
 	
-	if message != 'quit':
-		print(message)
+	if message == 'quit':
+		active = False
 
 	else:
 		print(message)
